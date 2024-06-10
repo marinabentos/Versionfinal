@@ -1,0 +1,174 @@
+.body_inicio{
+  background-image: url("fondoinic.jpg");
+    color: #ffffff;
+    text-align: center;
+    min-height: 100vh;
+}
+
+.body_trabajos{
+    background-image: url("fondoinic.jpg");
+}
+.body_sobre_mi{
+    background-image: url("fondoinic.jpg");
+}
+.body_contacto{
+    background-image: url("fondoinic.jpg");
+}
+h1{
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+h2{
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+h3{
+  text-align: left;
+}
+p{ 
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+img{
+    width: 150;height: 350;
+}
+
+ a{
+    text-align: center;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+}
+  form{
+    max-width: 1400px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: #ffffff;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1) 
+    padding 50;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    opacity: 100%;
+    margin: 0;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo{
+  display: flex;
+  align-items: center;
+}
+
+.logo img{
+  height: 50px;
+  margin-right: 10px;
+}
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 350px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  div.gallery:hover {
+    border: 5px solid #0c0d30;
+    transform: rotate(-1deg);
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 12px;
+    text-align: center;
+    background-color: #ffffff;
+  }
+  
+  .nav{
+    text-align: left;
+  }
+  .registrarte{
+    text-decoration: underline;
+    font-size: larger;
+    font-style: oblique;
+  }
+
+.logosobre_mi{
+  height: 100;
+  width: 100;
+}
+
+li{
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #ffffff;
+}
+
+hr{
+  color: rgb(0, 0, 0);
+}
+
+h3{
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #ffffff;
+}
+
+h4{
+  text-decoration: none;
+  font-family:Arial, Helvetica, sans-serif ;
+  color: #ffffff;
+}
+
+#cuadrado  {
+  width: 100px;
+  height: 100px;
+  background:#6f72ae;
+  animation-name: animacion;
+  animation-duration: 5s;
+  animation-delay: 2s;
+  position: relative;
+  animation-direction: reverse;
+  animation-timing-function: ease ;
+  animation-iteration-count: infinite;
+}
+
+@keyframes animacion {
+  0%{background-color:#0c0d30;left: 0px;top: 0px;}
+  25%{background-color:#151751;left: 300px;top: 0px;}
+  50%{background-color:#2a2d6f;left: 300px;top: 300px;}
+  75%{background-color:#454993;left: 0px;top: 300px;}
+  100%{background-color:#6f72ae;left: 0px;top: 0px;}
+
+}
+
+.colum {
+  float: left;
+  width: 33.33%;
+  padding: 15px;
+}
+
+.row::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width:600px){
+  .colum{
+    width: 100%;
+  }
+}
